@@ -1,1 +1,5 @@
+window.onload = () => 
+{
+  alert("👋 Welcome to my portfolio, I'm Sonali (Code4livingg)!");
+};
 
