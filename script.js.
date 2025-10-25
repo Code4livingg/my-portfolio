@@ -1,5 +1,12 @@
-window.onload = () => 
-{
-  alert("👋 Welcome to my portfolio, I'm Sonali (Code4livingg)!");
+window.onload = () => {
+  Swal.fire({
+    title: "👋 Welcome!",
+    text: "Hi, I'm Sonali (Code4livingg). Thanks for visiting my portfolio!",
+    icon: "info",
+    confirmButtonText: "Let's go 🚀",
+    background: "#1e1e1e",
+    color: "#fff",
+    confirmButtonColor: "#4CAF50"
+  });
 };
 
